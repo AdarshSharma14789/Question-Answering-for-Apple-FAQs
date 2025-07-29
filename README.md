@@ -1,5 +1,6 @@
-# Question-Answering-for-Apple-FAQs
-An AI-powered FAQ assistant designed to address common user queries related to Apple products. The system features an intuitive Streamlit interface for interaction and integrates a locally deployed Mistral LLM, a FAISS vectorstore for efficient retrieval, and a RAG (Retrieval-Augmented Generation) model for generating accurate responses.
+# Question-Answering-for-Apple-FAQs-dataset
 
-Domain:
-The assistant uses a curated dataset of FAQs related to Apple devices, consisting of 881 query-response pairs. Additionally, it includes detailed information about 50 Apple products—such as price, installment options, images, available colors, sizes, and descriptions—gathered via web scraping to enrich the response quality and user experience.
+An AI-powered FAQ assistant focused on addressing common queries of users related to Apple products. A Streamlit interface for user interaction and the use of Mistral LLM locally, FAISS vectorstore for database, and RAG model for retrieval of responses to user queries.
+
+Domain--
+We have taken a dataset of FAQs related to Apple devices. It consists of 2 columns one consisting of queries related to Apple products and the other is their responses and contains 881 values . We have also included 50 Apple products including their price, installments, image, available colors, size, and description in our dataset which was collected by Web Scraping.
